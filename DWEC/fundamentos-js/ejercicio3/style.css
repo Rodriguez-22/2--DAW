@@ -1,88 +1,39 @@
-/* Estilos globales */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f4f4f4;
-    margin: 40px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
     color: #333;
 }
 
-/* Título principal */
 h1 {
-    color: #0077b6;
-    text-align: center;
-    margin-bottom: 40px;
+    color: #24b10eff;
 }
 
-/* Estilo para cada ejercicio */
-section.ejercicio {
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-left: 6px solid #0077b6;
-    margin: 25px 0;
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-/* Títulos de cada ejercicio */
-section.ejercicio h2 {
-    margin-top: 0;
-    color: #023e8a;
-}
-
-/* Párrafos descriptivos */
-section.ejercicio p {
-    font-size: 15px;
-    background-color: #e3f2fd;
+p {
+    background-color: #e0fbfc;
     padding: 10px;
-    border-left: 4px solid #90e0ef;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    border-left: 4px solid #0f6e07ff;
 }
 
-/* Botones */
 button {
     padding: 10px 20px;
-    background-color: #0077b6;
+    background-color: #0f6e07ff;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
+    border-radius: 4px;
     cursor: pointer;
-    margin-top: 10px;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #005f86;
+    background-color: #afe447ff;
+    color: #000;
 }
 
-/* Inputs */
-input[type="text"],
-input[type="number"] {
-    padding: 8px;
-    margin: 6px 5px 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 200px;
-    box-sizing: border-box;
-}
-
-/* Resultado */
 .resultado {
-    margin-top: 15px;
-    padding: 12px;
-    background-color: #dff6f0;
-    border-left: 4px solid #00b894;
-    border-radius: 4px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #d8f3dc;
     font-weight: bold;
-    color: #14532d;
-}
-
-/* Responsive (opcional) */
-@media (max-width: 600px) {
-    input[type="text"],
-    input[type="number"] {
-        width: 100%;
-    }
+    color: #2d6a4f;
 }
